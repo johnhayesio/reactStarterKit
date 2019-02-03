@@ -1,0 +1,24 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "React App",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "React",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "John Hayes",
+  "license": "ISC"
+}
