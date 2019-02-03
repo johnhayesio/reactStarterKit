@@ -12,7 +12,7 @@ class App extends Component {
           </div>
           <div className='f2 f1-m f1-l sans-serif'>Welcome to React!</div>
           <div className='f4 tracked-mega mb4'>2019 Starter Kit</div>
-          <a className='link br3 pl3 pr3 pt2 pb2 white ba b--light-blue' href='https://github.com/johnhayesio' target='_blank'>version 1.0.0</a>
+          <a className='link br3 pl3 pr3 pt2 pb2 white ba b--light-blue' href='https://github.com/johnhayesio/reactStarterKit' target='_blank'>version 1.0.0</a>
         </div>
       </div>
     )
