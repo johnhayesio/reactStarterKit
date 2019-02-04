@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import logo from '../images/React.png'
-import 'tachyons'
 
 class App extends Component {
   render() {
