@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf build",
     "build": "NODE_ENV=production npm run clean && webpack -p",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --progress --colors"
   },
   "repository": {
     "type": "git",
