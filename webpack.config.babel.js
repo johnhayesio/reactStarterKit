@@ -15,6 +15,7 @@ module.exports = {
     ]
   },
   mode: 'development',
+  devServer: { port: 5555 },
   optimization: {
     runtimeChunk: { name: 'manifest' },
     splitChunks: { cacheGroups: { vendor: { chunks: 'initial', test: 'vendor', name: 'vendor', enforce: true } } }
