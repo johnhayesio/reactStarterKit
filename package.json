@@ -4,7 +4,8 @@
   "description": "React App",
   "main": "index.js",
   "scripts": {
-    "build": "babel-node ./node_modules/webpack/bin/webpack",
+    "clean": "rimraf build", 
+    "build": "npm run clean && babel-node ./node_modules/webpack/bin/webpack",
     "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server"
   },
   "repository": {
@@ -21,8 +22,16 @@
   "license": "ISC",
   "homepage": "https://github.com/johnhayesio/reactStarterKit#readme",
   "dependencies": {
+    "faker": "4.1.0",
     "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react-dom": "16.7.0",
+    "react-input-range": "1.3.0",
+    "react-redux": "6.0.0",
+    "react-router": "4.3.1",
+    "redux": "4.0.1",
+    "redux-form": "8.1.0",
+    "redux-thunk": "2.3.0",
+    "tachyons": "4.11.1"
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
@@ -36,9 +45,9 @@
     "html-webpack-plugin": "3.2.0",
     "node-sass": "4.11.0",
     "path": "0.12.7",
+    "rimraf": "2.6.3",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
-    "tachyons": "4.11.1",
     "webpack": "4.29.0",
     "webpack-cli": "3.2.1",
     "webpack-dev-server": "3.1.14"
