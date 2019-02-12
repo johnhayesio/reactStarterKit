@@ -4,6 +4,7 @@
   "description": "React App",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write \"app/src/**/*.{js,jsx,css,json}\"",
     "clean": "rimraf build",
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "start": "webpack-dev-server --progress --colors"
