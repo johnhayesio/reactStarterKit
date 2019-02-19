@@ -5,8 +5,14 @@
 }
 
 body {
-  background: $mainBg;
-  color: $mainBlue;
+  background: $background;
+  color: $primary;
+}
+
+.bug * {
+  background: $black;
+  color: $white;
+  outline: 0.15rem solid $warning;
 }
 
 img {

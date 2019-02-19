@@ -7,7 +7,7 @@ class App extends Component {
       <div className="vh-100 dt w-100">
         <div className="dtc v-mid tc">
           <div>
-            <img className="mw5" src={logo} alt="Logo" />
+            <img className="mw5 rotate" src={logo} alt="Logo" />
           </div>
           <div className="f2 f1-m f1-l sans-serif">Welcome to React!</div>
           <div className="f4 tracked-mega mb4">2019 Starter Kit</div>
